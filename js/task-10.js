@@ -23,10 +23,9 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-
+let size = 20;
 function createBoxes(amount) {
   console.log(amount);
-  let size = 20;
   for (let i = 0; i < amount; i++) {
     size += 10;
     const divboxEl = document.createElement('div');
